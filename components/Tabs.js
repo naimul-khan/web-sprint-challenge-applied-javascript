@@ -15,7 +15,7 @@ axios
     .then(res => 
         { 
             const topics = res.data.topics; 
-            console.log(topics);
+            // console.log(topics);
 
             const entryPoint = document.querySelector('.topics');
 
